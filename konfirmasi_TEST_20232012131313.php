@@ -64,6 +64,72 @@
 <body>
     <h1>Custom File Manager</h1>
 
+    User level updated successfully.<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom File Manager</title>
+</head>
+<style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            color: #ff9500;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #0077ff;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #00aaff;
+        }
+
+        input[type="text"],
+        input[type="file"],
+        input[type="submit"],
+        textarea {
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+
+        input[type="submit"] {
+            background-color: #0077ff;
+            color: #fff;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00aaff;
+        }
+
+        /* Add dark mode specific styles here */
+        /* For example: */
+        /* body.dark-mode { */
+        /*     background-color: #333; */
+        /*     color: #fff; */
+        /* } */
+        /* a.dark-mode { */
+        /*     color: #00aaff; */
+        /* } */
+    </style>
+<body>
+    <h1>Custom File Manager</h1>
+
     <?php
     $path = '/';  // Change this to the directory you want to manage, starting from the root
 
